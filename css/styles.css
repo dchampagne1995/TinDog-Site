@@ -1,81 +1,166 @@
-body{
+body {
   font-family: "Montserrat";
 }
 
-#title{
+#title {
   background-color: #FF4C68;
   color: white;
 }
 
-h1{
+h1 {
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h3{
+h2 {
   font-family: "Montserrat";
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-p{
+h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+p {
   color: #8f8f8f;
 }
 
-.container-fluid{
-padding: 3% 15%;
+.container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
-
-.navbar{
+.navbar {
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
-  font-family:"Montserrat";
+  font-family: "Montserrat";
 }
 
 /* Download Buttons */
-
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-#dogiphone{
+#dogiphone {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* features */
-
-#features{
+#features {
   padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
 }
 
-.feature-icon{
+.feature-icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.feature-icon:hover{
+.feature-icon:hover {
   color: #ff4c68;
 }
 
-.feature-box{
+.feature-box {
   text-align: center;
   padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #FFF;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #dogiphone {
+    position: relative;
+    transform: rotate(0);
+  }
+}
+
+/* cta Section */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.cta-head {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #FFF;
+}
+
+.social-icon {
+  padding: 2% 1%;
 }
